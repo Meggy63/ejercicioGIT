@@ -1,0 +1,19 @@
+<script>
+	numeroDeElementos= 4;
+   function fibonacci(numeroDeElementos){
+  let a=0;
+   let b=1;
+   let c ;
+   let s=1;
+ console.log(a);
+ console.log(b);
+  for(i = 3; i<=numeroDeElementos;i++){
+    c=a+b;
+    console.log(c);
+    s = s +c;
+    a =b;
+    b=c;
+  }
+}
+console.log(fibonacci(numeroDeElementos));
+</script>
