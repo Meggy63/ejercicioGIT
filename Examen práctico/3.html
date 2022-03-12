@@ -1,0 +1,16 @@
+<script>
+   
+var cadena = "Esta es una cadena de texto";
+var caracter = "a";
+var respuesta = cuantasVecesSeRepite(cadena, respuesta);
+function cuantasVecesSeRepite(cadena, caracter){
+  var indices = [];
+  for(var i = 0; i < cadena.length; i++) {
+    if (cadena[i].toLowerCase() === caracter) indices.push(i);
+  }
+	return indices.length;
+
+
+}
+console.log(cuantasVecesSeRepite(cadena, caracter));
+</script>
